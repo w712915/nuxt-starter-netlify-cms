@@ -98,7 +98,7 @@
         </div>
         <p class="mt-8 text-base leading-6 text-gray-400 md:mt-0 md:order-1">
           <!-- &copy; 2020 Whoever | Sponsored by -->
-          &copy;<script>document.write(new Date().getFullYear());</script> Chin Bunhu
+          &copy;{{ copyright }} Chin Bunhu
           <!-- <a href="https://netlify.com" target="_blank">Netlify</a> -->
         </p>
       </div>
@@ -107,7 +107,15 @@
 </template>
 
 <script>
-export default {}
+export default {
+  computed: {
+    // 算出 getter 関数
+    copyright() {
+      // `this` は vm インスタンスを指します
+      return new Date().getFullYear()
+    },
+  },
+}
 </script>
 
 <style scoped></style>
