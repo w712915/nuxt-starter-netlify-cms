@@ -1,6 +1,6 @@
-display_url: https://nuxt-starter-netlify-cms.netlify.app
-site_url: https://nuxt-starter-netlify-cms.netlify.app
-logo_url: https://nuxt-starter-netlify-cms.netlify.app/icon.png
+display_url: https://www.techs.ga
+site_url: https://www.techs.ga
+logo_url: https://www.techs.ga/logo.png
 
 publish_mode: editorial_workflow
 backend:

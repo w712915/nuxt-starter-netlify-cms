@@ -11,8 +11,7 @@
       >
         <div>
           <nuxt-link to="/" class="flex logo">
-            <!-- <img class="h-5" src="/img/logo.svg" alt="Workflow" /> -->
-            Chin Bunhu
+            <img class="h-5" src="/img/logo.svg" alt="Workflow" />
           </nuxt-link>
         </div>
         <div class="-my-2 -mr-2 md:hidden">
@@ -88,12 +87,11 @@
             <div class="px-5 pt-5 pb-6 space-y-6">
               <div class="flex items-center justify-between">
                 <nuxt-link to="/" @click.native="toggleMenu">
-                  Chin Bunhu
-                  <!-- <img
+                  <img
                     class="h-5"
-                    src="/assets/images/logo.svg"
+                    src="/img/logo.svg"
                     alt="Workflow"
-                  /> -->
+                  />
                 </nuxt-link>
                 <div class="-mr-2">
                   <button
@@ -194,8 +192,8 @@ export default {
 </script>
 
 <style scoped>
-.logo {
+/* .logo {
   color: #333;
   font-weight: bold;
-}
+} */
 </style>
