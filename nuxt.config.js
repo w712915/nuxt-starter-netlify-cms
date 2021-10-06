@@ -57,7 +57,7 @@ export default {
   ],
 
   googleAnalytics: {
-    id: 'UA-56619132-1'
+    id: process.env.GOOGLE_ANALYTICS_ID
   },
 
   publicRuntimeConfig: {
@@ -69,6 +69,7 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/content
+    '@nuxtjs/dotenv',
     '@nuxt/content',
   ],
 }
