@@ -65,6 +65,6 @@ export default {
 
   'google-gtag': {
     id: 'UA-56619132-1',  //サイトのID
-    debug: true,  // 開発環境でも表示したい場合
+    debug: false,  // 開発環境でも表示したい場合
   },
 }
