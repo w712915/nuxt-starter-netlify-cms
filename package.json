@@ -25,6 +25,7 @@
   "devDependencies": {
     "@nuxtjs/eslint-config": "^4.0.0",
     "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/tailwindcss": "^3.1.0",
     "@release-it/conventional-changelog": "^2.0.0",
     "babel-eslint": "^10.1.0",
@@ -37,7 +38,7 @@
     "prettier": "^2.1.2",
     "release-it": "^14.2.1",
     "remark-cli": "^9.0.0",
-    "remark-frontmatter": "^3.0.0",
+    "remark-frontmatter": "^4.0.0",
     "remark-lint": "^8.0.0",
     "remark-preset-lint-consistent": "^4.0.0",
     "remark-preset-lint-markdown-style-guide": "^4.0.0",
