@@ -98,7 +98,7 @@
         </div>
         <p class="mt-8 text-base leading-6 text-gray-400 md:mt-0 md:order-1">
           <!-- &copy; 2020 Whoever | Sponsored by -->
-          &copy;{{ copyright }} Chin Bunhu
+          &copy;{{ copyright }} TECHS
           <!-- <a href="https://netlify.com" target="_blank">Netlify</a> -->
         </p>
       </div>
