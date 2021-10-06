@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="l_container">
     <Header />
     <Nuxt />
     <Footer />
@@ -10,4 +10,13 @@
 export default {}
 </script>
 
-<style scoped></style>
+<style>
+.l_container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+footer {
+  margin-top: auto !important;
+}
+</style>
