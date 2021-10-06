@@ -10,7 +10,7 @@ export default {
       process.env.NODE_ENV === 'production'
         ? process.env.URL || 'http://createADotEnvFileAndSetURL'
         : 'http://localhost:3000',
-    lang: 'en-US',
+    lang: 'ja',
   },
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
@@ -28,6 +28,7 @@ export default {
           '',
       },
     ],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
 
   generate: {
