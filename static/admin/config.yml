@@ -15,6 +15,7 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+local_backend: true
 
 # Docs: https://www.netlifycms.org/docs/configuration-options/#collections
 collections:
