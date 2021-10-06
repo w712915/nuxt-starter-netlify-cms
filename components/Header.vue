@@ -7,7 +7,7 @@
   <div class="relative bg-white">
     <div class="max-w-screen-xl mx-auto">
       <div
-        class="flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10"
+        class="flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-12"
       >
         <div>
           <nuxt-link to="/" class="flex logo">
