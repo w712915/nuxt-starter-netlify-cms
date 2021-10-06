@@ -52,24 +52,19 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/tailwindcss'
   ],
-
-  googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID
-  },
-
-  publicRuntimeConfig: {
-    googleAnalytics: {
-      id: process.env.GOOGLE_ANALYTICS_ID
-    }
-  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/content
+    '@nuxtjs/google-gtag',
     '@nuxtjs/dotenv',
     '@nuxt/content',
   ],
+
+  'google-gtag': {
+    id: 'UA-56619132-1',  //サイトのID
+    debug: true,  // 開発環境でも表示したい場合
+  },
 }
