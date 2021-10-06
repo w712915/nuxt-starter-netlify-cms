@@ -87,11 +87,7 @@
             <div class="px-5 pt-5 pb-6 space-y-6">
               <div class="flex items-center justify-between">
                 <nuxt-link to="/" @click.native="toggleMenu">
-                  <img
-                    class="h-5"
-                    src="/img/logo.svg"
-                    alt="Workflow"
-                  />
+                  <img class="h-5" src="/img/logo.svg" alt="Workflow" />
                 </nuxt-link>
                 <div class="-mr-2">
                   <button
